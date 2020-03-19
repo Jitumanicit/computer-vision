@@ -1,0 +1,330 @@
+	img.logo {
+  		margin-top: 0px;
+  		width: 200px !important;
+  	}
+	nav {
+  		-webkit-box-shadow: 0px -2px 9px -1px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px -2px 9px -1px rgba(0,0,0,0.75);
+		box-shadow: 0px -2px 9px -1px rgba(0,0,0,0.75);
+  	}
+  	.overlay {
+	  height: 0%;
+	  width: 100%;
+	  position: fixed;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	  background-color: rgb(0,0,0);
+	  background-color: rgba(0,0,0, 0.7);
+	  overflow-y: hidden;
+	  transition: 0.5s;
+	}
+	.overlay-content {
+	  position: relative;
+	  top: 10%;
+	  width: 100%;
+	  text-align: center;
+	  margin-top: 25px;
+	}
+	.overlay a {
+	  padding: 8px;
+	  text-decoration: none;
+	  font-size: 18px;
+	  color: white;
+	  display: block;
+	  transition: 0.3s;
+	}
+	.overlay a:hover, .overlay a:focus {
+	  color: #d9534f;
+	}
+	.overlay .closebtn {
+	  position: absolute;
+	  top: 20px;
+	  right: 45px;
+	  font-size: 60px;
+	}
+	@media screen and (max-height: 450px) {
+	  .overlay {overflow-y: auto;}
+	  .overlay a {font-size: 20px}
+	  .overlay .closebtn {
+	  font-size: 40px;
+	  top: 15px;
+	  right: 35px;
+	  }
+	}
+	.breaking{
+		margin-top: 10px;
+	}
+	.ticker {
+		width: 100%;
+		height: 30px;
+		overflow: hidden;
+		border: 1px solid #DDD;
+		margin: 0;
+		padding: 2px;
+		list-style: none;
+		box-shadow: 0px 0px 5px #DDD;
+		font-size: 15px;
+	}
+	.navbar-brand {
+		 padding-top: 5px;
+	}
+	.navbar-brand img {
+  		max-width:150px;
+    	max-height:150px;
+	}
+	.mainContainer {
+  		border-top: 0px solid rgba(0,0,0,.125);
+  		border-bottom: 0px solid rgba(0,0,0,.125);
+  		margin-top: 20px;
+  	}
+  	.innerContainer {
+  		display: -webkit-box;
+  		flex-wrap: nowrap;
+  		overflow-x: auto;
+  	}
+  	div.mainContainer .containerHeadline p{
+  		margin: 0 auto;
+  		padding: 8px;
+  		font-size: 12px;
+  	}
+  	div.header div{
+  		margin: 0px auto;
+  		text-align: center;
+  	}
+
+  	div.header div img {
+  		width: 50%;
+  	}
+  	.btn{
+  		color: ;
+  		font-size: smaller;
+  	}
+  	.card {
+  		margin: 18px 9px 18px 9px;
+  		width: 14rem;
+  		font-size: 12px;
+  	}
+  	.card-img-top{
+  		height: 120px;
+  	}
+  	.card-img-list{
+  		height: 60px;
+  		width: 90px;
+  	}
+  	.badge.badge-state{
+  		background-color: transparent;
+  		color: black;
+  		font-size: smaller;
+  		border: 0.5px solid #d9534f;
+  	}
+  	.badge.badge-time{
+  		background-color: transparent;
+  		color: black;
+  		font-size: smaller;
+  		border: 0.5px solid #4863A0;
+  	}
+  	a.containerAnchor{
+  		color: black;
+  		display: flex;
+  		flex-direction: column;
+  	}
+  	a.containerAnchor:hover {
+	  color: black;
+	  text-decoration: none;
+	}
+  	.containerTitle {
+  		margin-top: 8px;
+    	margin-left: 0px;
+  	}
+  	.media-body{
+  		margin-left: 7px;
+  	}
+  	.media-heading{
+  		font-weight: bold;
+  		margin-bottom: 0.2rem;
+  	}
+    .badge-pill{
+      background-color: #E5E5E5;
+      border: 1px solid #ffdad9;
+    }
+    .extra{
+      border-top: 2px solid #808080;
+    }
+		.below{
+			border-top: 2px solid white;
+		}
+    .card-below{
+      margin: 20px;
+    }
+    .card-footer{
+      background-color: white;
+    }
+    .card-text{
+      margin-bottom: 0.5rem;
+    }
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+      position: static;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; 
+    }
+    .search-box{
+        width: 328px;
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .search-box input[type="text"]{
+        height: 32px;
+        padding: 5px 10px;
+        border: 1px solid #CCCCCC;
+        font-size: 14px;
+        width: 100%;
+    }
+    a.fa.fa-facebook{
+      padding: 10px;
+      font-size: 10px; 
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: #3B5998; 
+      color:white;
+    }
+    a.fa.fa-twitter{
+      padding: 10px;
+      font-size: 10px; 
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: #55ACEE; 
+      color:white;
+    }
+    a.fa.fa-linkedin{
+      padding: 10px;
+      font-size: 10px; 
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: #007bb5; 
+      color:white;
+    }
+    a.fa.fa-youtube{
+      padding: 10px;
+      font-size: 10px; 
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: #bb0000; 
+      color:white;
+    }
+    a.fa.fa-instagram{
+      padding: 10px;
+      font-size: 10px; 
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: #125688; 
+      color:white;
+    }
+    a.fa.fa-pinterest{
+      padding: 10px;
+      font-size: 10px; 
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: #cb2027; 
+      color:white;
+    }
+    a.fa.fa-reddit{
+      padding: 10px;
+      font-size: 10px; 
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: #ff5700; 
+      color:white;
+    }
+    a.fa.fa-quora{
+      padding: 10px;
+      font-size: 10px; 
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: red; 
+      color:white;
+    }
+    .error{
+      margin: 0 auto;
+      margin-top: 100px;
+      text-align: center;
+    }
+    h1{
+      text-align: center;
+    }
+    .header-logo{
+      margin-left: auto; 
+      margin-right: auto; 
+      padding: 10px;
+    }
+    nav.navbar.fixed-bottom.navbar-light.bg-light{
+      padding-top: inherit; 
+      padding-bottom: inherit; 
+      box-shadow: 10px 10px 16px #000000;
+    }
+    .share{
+      margin: 0 auto;
+      margin-top: 10px;
+    }
+    i.fa.fa-facebook{
+      padding: 10px;
+      font-size: 10px; 
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: #3B5998; 
+      color:white;
+    }
+    i.fa.fa-twitter{
+      padding: 10px;
+      font-size: 10px; 
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: #55ACEE; 
+      color:white;
+    }
+    i.fa.fa-whatsapp{
+      padding: 10px;
+      font-size: 10px; 
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+      background: green; 
+      color:white;
+    }
